@@ -1,7 +1,5 @@
 # Twitter Community Detection
 
-================================================================
-
 This code gets all the friends and followers of 'TheRealStanLee' and builds a friendship graph
 
 It Crawls their followers, with depth 3 and limit 5 for each level
@@ -16,7 +14,7 @@ and saves it to a .json file
 
 Then, using this data it creates a community graph and colors the nodes wrt to the different communities they belong to
 
-================================================================
+-----------------------------------------------------------------------------------------------------
 
 P.S.: you have to create your twitter developer account in order to get the following information:
 - consumer_key
@@ -28,4 +26,4 @@ and you can then store this info in a file (I have stored it in the auth_dict fi
 whose location will be the current folder of the .ipynb file
 it will be of json format
 
-================================================================
+-----------------------------------------------------------------------------------------------------
